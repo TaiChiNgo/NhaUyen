@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="image/traitym.png">
+    <link rel="stylesheet" href="mail.css">
+    <title>Gửi Nấm Lùn!</title>
+</head>
+<body>
+    <div class="warpper preloading">
+        <div class="box">
+            <div class="mail">
+                <div class="heart">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Gửi Nấm Lùn!</h2>
+                    </div>
+                    <p>
+                        Gửi ai đó, tui mất vài tiếng để làm mong 
+                        là ai đó đừng giận nữa. Hồi tối nhắn thấy 
+                         vậy là biết còn giận rùi, tối ai đó có chúc 
+                         ngủ ngon gì đâu. Là biết rùi, còn giận phải hông.
+                          Tui biết sai rùi tui sửa lại tính ngốc của mình.
+                          Tại nhắn tin với crush ai mà không cảm thấy ngại,
+                          huhu tui sẽ sửa lại, tui cũng biết bản thân nhắn tin
+                          hơi nhạt nhưng mà sẽ cố gắng, mong ai đó sẽ tha cho.
+                          Nữa gặp nhau cho kí đầu 1 cái để bớt lại tính ngốc này.
+                          NHA NHA NHA Nấm Lùn.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="inner one" style="--i:1;"></div>
+                <div class="inner two" style="--i:1;"></div>
+                <div class="inner three" style="--i:1;"></div>
+                <div class="box-heart">
+                    <div class="heartLoader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+        $(window).on('load', function(event){
+        $('body').removeClass('preloading');
+        $('.loader-wrapper').delay(1000).fadeOut('fast');
+    });
+    </script>
+</html>
